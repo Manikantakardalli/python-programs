@@ -27,9 +27,9 @@ print("Correct Answers :", score)
 print("Wrong Answers   :", len(questions) - score)
 
 percentage = (score / len(questions)) * 100
-print("Percentage      :", percentage, "%")
+print("\nPercentage :", percentage, "%")
 
 if percentage >= 50:
-    print("Result : PASS")
+    print("\nResult : PASS")
 else:
-    print("Result : FAIL")
+    print("\nResult : FAIL")
