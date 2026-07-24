@@ -27,8 +27,8 @@ else:
 
             if amount > 0:
                 balance += amount
-                print("Amount Deposited Successfully.")
-                print("Current Balance: Rs.", balance)
+                print("\nAmount Deposited Successfully.")
+                print("\nCurrent Balance: Rs.", balance)
             else:
                 print("Invalid Amount!")
 
@@ -43,8 +43,8 @@ else:
 
             else:
                 balance -= amount
-                print("Please Collect Your Cash.")
-                print("Remaining Balance: Rs.", balance)
+                print("\nPlease Collect Your Cash.")
+                print("\nRemaining Balance: Rs.", balance)
 
         elif choice == 4:
             old_pin = int(input("Enter Current PIN: "))
